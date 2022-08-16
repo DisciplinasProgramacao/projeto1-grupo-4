@@ -5,6 +5,7 @@ Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
 ## Alunos integrantes da equipe
 
 * Arthur Alexi Moreira Menezes
+* Arthur Rodrigues Lanza Avelar
 * Frederico dos Santos Ferreira de Andrade
 * Pablo Augusto Carneiro Magalhães
 
