@@ -7,6 +7,9 @@ Coloque aqui todas as versões do seu diagrama de classes. Cada versão deve com
 
 ![image](https://user-images.githubusercontent.com/90854173/186149622-92edafc6-59d7-4c6e-a479-e50b2786207c.png)
 
+![image](https://user-images.githubusercontent.com/109962972/186505264-053a84e8-046f-4778-be6a-727ff10145c5.jpeg)
+
+
 ## Primeira Versão 01:
 
 | Horario |              
