@@ -1,9 +1,16 @@
 # Diagramas de classe
 Coloque aqui todas as versões do seu diagrama de classes. Cada versão deve começar com um número de dois dígitos, na ordem crescente.
 
-## Primeira versão:
+## Segunda Versão 02:
 
-#### 01
+![image](https://user-images.githubusercontent.com/90854583/186232616-da5fee70-ee93-4b33-8585-77b2d556224e.png)
+
+![image](https://user-images.githubusercontent.com/90854173/186149622-92edafc6-59d7-4c6e-a479-e50b2786207c.png)
+
+![image](https://user-images.githubusercontent.com/109962972/186505264-053a84e8-046f-4778-be6a-727ff10145c5.jpeg)
+
+
+## Primeira Versão 01:
 
 | Horario |              
 | ---- |
@@ -15,8 +22,6 @@ Coloque aqui todas as versões do seu diagrama de classes. Cada versão deve com
 | validaHorario( horario : String) : boolean |
 | formatarHorario( horario : String) : void |
 
-#### 02
-
 | Compromisso |              
 | ---- |
 | - nome : String |
@@ -26,8 +31,6 @@ Coloque aqui todas as versões do seu diagrama de classes. Cada versão deve com
 | + Compromisso(nome : String, tipo : String) |
 | + Compromisso(nome : String, tipo : String, horario : String ) |
 | + getHorario() : Horario |
-
-#### 03
 
 | Data |              
 | ---- |
@@ -44,8 +47,6 @@ Coloque aqui todas as versões do seu diagrama de classes. Cada versão deve com
 | - anoBissexto(ano : int ) : boolean |
 | + addCompromisso(compromisso : Compromisso): void |
 | - procuraComprimisso(compromissoNome : String) : Compromisso |
-
-#### 04
 
 | Calendario |              
 | ---- |
