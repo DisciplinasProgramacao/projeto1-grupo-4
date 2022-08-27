@@ -1,25 +1,24 @@
-//public class Compromisso extends util{
 public class Compromisso{
     
     //Atributos:
         private String nome;
         private String descricao;
-        //Data data;
+        Data data;
     //EndRegion:
 
     //Metodos:  
     
         Compromisso(String nome, String data){
             this.nome = nome;
-            this.descricao = '';
-            //data = new Data(data);
+            this.descricao = "";
+            this.data = new Data();
         } 
 
         public void setNome(String nome){
             this.nome = nome;
         }
 
-        public void getNome(){
+        public String getNome(){
             return this.nome;
         }
 
