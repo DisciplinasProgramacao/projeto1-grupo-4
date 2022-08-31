@@ -39,4 +39,20 @@ public class Data {
 		this.mes = Integer.parseInt(data.substring(3, 5));
 		this.ano = Integer.parseInt(data.substring(6, 10));
 	}
+	
+	public int getData(){
+		return this.data;
+	}
+	
+	public int getDia(){
+		return this.dia;
+	}
+	
+	public int getMes(){
+		return this.mes;
+	}
+	
+	public int getAno(){
+		return this.ano;
+	}
 }
