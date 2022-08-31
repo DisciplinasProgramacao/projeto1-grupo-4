@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Data {
-	Scanner date = new Scanner(System.in);
 
 	private String data;
 	private int dia;
@@ -15,9 +14,8 @@ public class Data {
 		this.ano = 0;
 	}
 
-	public void leData() {
-		System.out.println("Digite a data desejada: ");
-		data = date.nextLine();
+	public void leData(String data) {
+		this.data = data;
 	}
 
 	public boolean validaData() {
