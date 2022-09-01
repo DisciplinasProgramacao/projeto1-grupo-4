@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Data {
 
@@ -7,18 +6,13 @@ public class Data {
 	private int mes;
 	private int ano;
 
-	Data() {
-		this.data = null;
-		this.dia = 0;
-		this.mes = 0;
-		this.ano = 0;
-	}
-
-	public void leData(String data) {
+	Data(String data) {
 		this.data = data;
+		formataData();
+		validaData();
 	}
 
-	public boolean validaData() {
+	private boolean validaData() {
 		if (dia > 0 && dia < 32) {
 			if (mes > 0 && mes < 13) {
 				if (ano > 2021) {
@@ -34,13 +28,13 @@ public class Data {
 		}
 	}
 
-	public void formataData() {
+	private void formataData() {
 		this.dia = Integer.parseInt(data.substring(0, 2));
 		this.mes = Integer.parseInt(data.substring(3, 5));
 		this.ano = Integer.parseInt(data.substring(6, 10));
 	}
 	
-	public int getData(){
+	public String getData(){
 		return this.data;
 	}
 	
