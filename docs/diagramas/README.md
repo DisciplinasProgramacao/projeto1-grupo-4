@@ -3,7 +3,7 @@ Coloque aqui todas as versões do seu diagrama de classes. Cada versão deve com
 
 ## Segunda Versão 02:
 
-![image](https://user-images.githubusercontent.com/90854583/186232616-da5fee70-ee93-4b33-8585-77b2d556224e.png)
+![image](https://user-images.githubusercontent.com/90854583/189373133-d943d04c-57c2-4488-9228-9ee0baf970d9.png)
 
 ![image](https://user-images.githubusercontent.com/90854173/186149622-92edafc6-59d7-4c6e-a479-e50b2786207c.png)
 
